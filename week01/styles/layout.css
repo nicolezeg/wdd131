@@ -1,0 +1,58 @@
+body {
+    height: 100vh;
+    line-height: 1.5;
+    grid-template-rows: auto 1fr; /* Define rows for header and content */
+    grid-template-columns: 1fr 1fr; /* Define columns for main and aside content */
+}
+  
+header {
+  background: #333;
+  padding: 1rem;
+  height: 50px;
+}
+
+header h1 {
+  color: #eee;
+}
+
+.navigation  {
+	list-style: none;
+	display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+	background-color: #000000;
+	align-items: center;
+}
+
+.navigation a {
+  flex: 1 1 auto;  /* difference between auto and 100% flex-basis - turn on link borders to view */
+	display: block;
+	color: #eee;
+	padding: 0.75rem;
+	text-decoration: none;
+	text-align: center;
+/* 	border: 1px dotted cyan; */
+
+}
+
+.container {
+  display: flex;
+}
+.main-content {
+  background: rgb(236, 221, 215);
+  flex: 1;
+}
+
+.aside-content {
+  background: rgb(253, 253, 253);
+  flex: 1;
+}
+
+footer {
+  background: #333;
+  padding: 1rem;
+  color: #eee;
+  text-align: center;
+}
+  
+  

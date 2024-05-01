@@ -1,0 +1,82 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  line-height: 1.5;
+  grid-template-rows: auto 1fr; /* Define rows for header and content */
+  grid-template-columns: 1fr 1fr; /* Define columns for main and aside content */
+}
+  
+header {
+  background: rgb(236, 221, 215);
+  padding: 1rem;
+}
+
+header h1 {
+  color: #333;
+  text-align: center;
+}
+
+.ways  {
+	list-style: none;
+	display: flex;
+  padding: 1rem;
+	background-color: #000000;
+	align-items: center;
+}
+
+.ways a {
+  flex: 1 1 auto;  /* difference between auto and 100% flex-basis - turn on link borders to view */
+	display: block;
+	color: #eee;
+	padding: 0.75rem;
+	text-decoration: none;
+	text-align: center;
+/* 	border: 1px dotted cyan; */
+
+}
+
+.container {
+  display: flex;
+}
+
+.card {
+  margin: 2rem;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background: #eee;
+  flex: 1 / 2;
+}
+
+.card h2 {
+  background-color: rgb(236, 221, 215);
+  text-align: center;
+}
+
+.card p {
+  padding: 1rem;
+}
+
+.card img {
+  border: 2px solid #ccc;
+  margin: 1rem;
+  width: 180px;
+  height: 200px;
+}
+
+#peru-info img {
+  width: 200px;
+  height: 130px;
+}
+
+#peru-info h2 {
+  text-align: center;
+  background: #eee;
+}
+
+
+footer {
+  background: #333;
+  padding: 1rem;
+  color: #eee;
+  text-align: center;
+}
