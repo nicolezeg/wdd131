@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:wght@700&family=PT+Serif&display=swap');
+
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   height: 100vh;
   line-height: 1.5;
   grid-template-rows: auto 1fr; /* Define rows for header and content */
@@ -20,14 +21,14 @@ header h1 {
 	list-style: none;
 	display: flex;
   padding: 1rem;
-	background-color: #000000;
+	background-color: black;
 	align-items: center;
 }
 
 .ways a {
   flex: 1 1 auto;  /* difference between auto and 100% flex-basis - turn on link borders to view */
 	display: block;
-	color: #eee;
+	color: white;
 	padding: 0.75rem;
 	text-decoration: none;
 	text-align: center;
@@ -40,11 +41,12 @@ header h1 {
 }
 
 .card {
-  margin: 2rem;
+  margin: 3rem;
   border: 2px solid #ccc;
   border-radius: 10px;
   background: #eee;
   flex: 1 / 2;
+  max-width: 850px;
 }
 
 .card h2 {
