@@ -12,9 +12,3 @@ const navMenu = document.querySelector('.nav-menu');
 hamburger.addEventListener('click', () => {
   navMenu.classList.toggle('show');
 });
-
-const closeBtn = document.querySelector('.close-btn');
-
-closeBtn.addEventListener('click', () => {
-  navMenu.classList.remove('show');
-});
