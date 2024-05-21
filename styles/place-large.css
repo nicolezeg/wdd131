@@ -1,0 +1,8 @@
+@media (min-width: 640px) {
+    .weather::after {
+        display: inline-block;
+        margin-left: 10px;
+      }
+      
+
+}
