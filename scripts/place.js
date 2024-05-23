@@ -6,8 +6,8 @@ const lastModifiedDate = document.lastModified;
 document.getElementById("lastModified").innerText = "Last Modified: " + lastModifiedDate;
 
 // Define static values for temperature and wind speed
-const temperature = 7; // in °C
-const windSpeed = 3; // in km/h
+const temperature = 10; // in °C
+const windSpeed = 5; // in km/h
 
 // Function to calculate windchill factor
 function calculateWindChill(temperature, windSpeed) {
@@ -15,4 +15,4 @@ function calculateWindChill(temperature, windSpeed) {
 }
 
 // Display windchill factor in the "Weather" section of the page
-document.getElementById("weather").innerText = `Windchill Factor: ${calculateWindChill(temperature, windSpeed)}`;
+document.getElementById("wind-chill").innerText = `Wind Chill: ${calculateWindChill(temperature, windSpeed)}`;
