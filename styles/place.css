@@ -107,7 +107,7 @@ main {
 }
 
 #weather-title::after {
-  background: url(../images/partly-cloudy-icon.svg) no-repeat;
+  background: url(../images/sandstorm_sun_icon.png) no-repeat;
   content: "";
   width: 50x;
   height: 50px;
