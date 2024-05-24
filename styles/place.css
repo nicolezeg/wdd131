@@ -51,6 +51,7 @@ main {
 }
 .card-container {
   height: fit-content;
+  padding: 1rem;
 }
 .card-title {
   background-color: var(--accent1-color);
@@ -87,17 +88,24 @@ main {
   justify-self: right;
   padding: 1rem;
 }
+.weather-icon {
+  text-align: center;
+}
+
+.desktop {
+  font-size: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.mobile {
+  display: none;
+}
 
 #weather-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-#weather-title::after {
-  background: url("../images/partly-cloudy-icon.svg") no-repeat;
-  content: "";
-  width: 50px;
-  height: 50px;
 }
 
 footer {
