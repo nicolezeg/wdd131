@@ -46,4 +46,8 @@
     height: 80px;
     width: 80px;
   }
+
+  #weather-title::after {
+    display: none;
+}
 }
