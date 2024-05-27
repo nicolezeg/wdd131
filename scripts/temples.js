@@ -6,9 +6,10 @@ document.getElementById("currentyear").innerText = currentYear;
 const lastModifiedDate = document.lastModified;
 document.getElementById("lastModified").innerText = "Last Modified: " + lastModifiedDate;
 
-const hamburger = document.querySelector('.hamburger');
-const navMenu = document.querySelector('.nav-menu');
+const buttonMenu = document.querySelector("#menu");
+const navbar = document.querySelector(".navigation");
 
-hamburger.addEventListener('click', () => {
-  navMenu.classList.toggle('show');
+buttonMenu.addEventListener("click", () => {
+  navbar.classList.toggle("open");
+  buttonMenu.classList.toggle("open");
 });
