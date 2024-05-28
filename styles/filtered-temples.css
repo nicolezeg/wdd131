@@ -8,6 +8,7 @@
   --primary-color: #333;
   --second-color: #e3e3e3;
   --accent1-color: rgb(236, 221, 215);
+  --accent2-color: rgb(223, 198, 189);
 }
 
 body {
@@ -91,9 +92,10 @@ figure > img {
   width: 100%;
   padding: 20px;
   background-color: var(--accent1-color);
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   text-align: center;
   font-size: small;
+  border: 1px solid var(--accent2-color);
+
 }
 
 .temple-card p {
@@ -108,7 +110,7 @@ figure > img {
   max-width: 100%;
   height: 200px;
   object-fit: cover;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  box-shadow: 1px 3px 8px rgb(0, 0, 0);
 }
 
 footer {
