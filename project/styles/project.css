@@ -75,10 +75,6 @@ header img {
 .open a{
 	display: block;
 }
-
-.wrap {
-    flex-wrap: wrap;
-}
   
 /*------Main------*/
 
@@ -92,14 +88,18 @@ main {
 }
 
 .grid-container {
-  display: inline-block;
+  display: grid;
+  grid-gap: 1rem;
+  padding: 1rem;
 }
 
 .grid-item {
-  display: inline-block;
+  display: grid;
   margin-right: 1px;
   margin-left: 7.5rem;
-  border: 1px solid #161616;
+  background-color: var(--accent2-color);
+  border-radius: 3px;
+  padding: 1rem;
 }
 
 .grid-item figure {
@@ -112,12 +112,7 @@ main {
   height: 220px;
 }
 
-.grid-item h3 {
-  text-align: left;
-  font-weight: 100;
-}
-
-.grid-item h2 {
+.grid-item h3, .grid-item h2 {
   text-align: left;
   font-weight: 100;
 }

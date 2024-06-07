@@ -6,6 +6,11 @@
     header img {
         margin-left: 6rem;
     }
+	.grid-container {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 20px;
+	}
     .rectangle {
         background: var(--accent2-color);
         width: 100%;

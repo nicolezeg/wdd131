@@ -20,8 +20,8 @@ const selectElement = document.getElementById('course-select');
 
 courses.forEach((course) => {
   const option = document.createElement('option');
-  option.value = product.id;
-  option.text = product.name;
+  option.value = course.id;
+  option.text = course.name;
   selectElement.appendChild(option);
 });
 
