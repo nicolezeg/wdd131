@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us | Prisma Idiomas</title>
+        <meta name="Description" content="This part of the page contains the contact information of our Institution besides a form where people can subscribe for classes.">
+        <meta name="Author" content="Nicole Zegarra">
+        <link rel="stylesheet" href="styles/project.css">
+        <link rel="stylesheet" href="styles/project-large.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <script src="script/project.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.png" alt="Institute Logo">
+            <button id="menu"></button>
+
+            <nav class="navigation wrap">
+                <a href="project.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </header>
+
+        <main>
+            <div class="rectangle">
+                <h2>Do you want to learn a new language?</h2>
+                <p>Fill your information below and an advisor will contact you and resolve all your concerns.</p>
+            </div>
+
+            <form method="get" action="rewiew.html" class="rinfo">
+
+                <fieldset>
+                    <legend>Person Information</legend>
+                    <label>First Name* <input type="text" name="fname" required></label>
+                    <label>Last Name* <input type="text" name="lname" required></label>
+                    <label>Phone <input type="tel" name="phone" placeholder="1235557891"></label>
+                    <label>Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+
+                    <label>Course Name*
+                        <select id="course-select" class="option" required>
+                            <option value="" >Select a Course... </option>
+                        </select>
+                    </label>
+
+                    <label>Course Modality*
+                        <select id="product-select" class="option" required>
+                            <option value="" >Select a Modality... </option>
+                            <option value="on-campus">On-Campus</option>
+                            <option value="online">Online</option>
+                        </select>
+                    </label>
+
+                    <input type="submit" value="Submit Request">
+    
+                </fieldset>
+            </form>
+        </main>
+
+    </body>
+    <footer>
+        <p> &copy;<span id="currentyear"></span> | Prisma Idiomas | Peru </p>
+    </footer>
+</html>

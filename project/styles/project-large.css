@@ -1,0 +1,24 @@
+@media (min-width: 860px) {
+    header {
+		flex-direction: row;
+	}
+
+    header img {
+        margin-left: 6rem;
+    }
+    .rectangle {
+        background: var(--accent2-color);
+        width: 100%;
+    }
+    #menu {
+        display: none;
+    }
+    .navigation {
+        flex-direction: row;
+    }
+    .navigation a {
+        display: block;
+        flex: 1 1 auto;
+    }
+
+}
