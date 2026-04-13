@@ -195,7 +195,17 @@ p {
     margin-top: 20px;
     font-size: medium;
 }
-
+.history {
+    background-color: var(--accent2-color);
+    margin-top: 1rem;
+}
+.history h2 {
+    margin: 0.5rem;
+}
+.history p {
+    font-size: large;
+    margin: 0.5rem;
+}
 /*----Footer Part-----*/
 footer {
     background-color: var(--primary-color);
